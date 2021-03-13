@@ -15,8 +15,8 @@ module.exports = {
             const browser = await puppeteer.launch({headless: true});
             const page = await browser.newPage();
             await page.goto(url);
-            await page.waitForSelector('.translation > span');
-            const element = await page.$('.translation > span');
+            await page.waitForSelector('div.J0lOec > span:nth-child(1) .JLqJ4b.ChMk0b > span');
+            const element = await page.$('div.J0lOec > span:nth-child(1) .JLqJ4b.ChMk0b > span');
             const text = await page.evaluate(element => element.textContent, element);
             await browser.close();
             res.json({text})

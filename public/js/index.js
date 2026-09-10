@@ -27,7 +27,7 @@ function hidePreloaderEffect() {
 }
 
 function changePlaceholderText() {
-    englishText.setAttribute('placeholder', 'Tu texto se esta traduciendo');
+    englishText.setAttribute('placeholder', 'Translating your text...');
 }
 
 function verifyIfExistsText() {

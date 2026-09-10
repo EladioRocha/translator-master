@@ -1,7 +1,7 @@
 {
   "name": "Translate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Spanish-to-English translation experiment using Express, EJS, and Puppeteer to extract results from Google Translate.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
